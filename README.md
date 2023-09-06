@@ -6,20 +6,21 @@
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/muhammedaslam312/seize_backend.git
+   git clone https://github.com/muhammedaslam312/seize_frontend.git
    cd <project_directory>
 
-2. Create a Virtual Environment:
+2. Install dependencies:
 
    ```bash
-    python -m venv venv
-    #for windows
-    venv\Scripts\activate
+    npm install
 
-3. Install Dependencies:
+3. Run the development server:
 
     ```bash
-    pip install -r requirements.txt
+
+    #confirm backend running before npm start
+    npm start
+
 
     
 4. Load Database;
