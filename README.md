@@ -23,16 +23,4 @@
 
 
     
-4. Load Database;
-
-    ```bash
-    python manage.py loaddata data.json
-
-5. Create SuperUser and Runserver;
-
-    ```bash
-    python manage.py makemigrations
-    python manage.py migrate    
-    python manage.py createsuperuser
-    python manage.py runserver
 
